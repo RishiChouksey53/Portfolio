@@ -129,13 +129,12 @@ body {
     color: white;
   }
 }
-@media (max-width: 600px) {
+@media (max-width: 37.5rem) {
   .header-nav-items {
     display: none;
   }
-  #check: check;
 }
-@media (min-width: 600px) {
+@media (min-width: 37.5rem) {
   nav {
     display: none;
   }
