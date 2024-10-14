@@ -5,7 +5,9 @@
   box-sizing: border-box;
   overflow: hidden;
 }
-
+body {
+  overflow: hidden;
+}
 #check {
   display: none;
 }
@@ -21,12 +23,12 @@
   width: 100%;
   box-shadow: 0 0 5px;
   position: absolute;
-  right: -110%;
   top: 0;
-  transition: 0.1ms ease-in;
+  right: 0;
+  display: none;
 }
 #check:checked ~ .side-bar {
-  right: 0;
+  display: unset;
 }
 #check:checked ~ .btn-one {
   display: none;
@@ -131,6 +133,7 @@
   .header-nav-items {
     display: none;
   }
+  #check: check;
 }
 @media (min-width: 600px) {
   nav {
